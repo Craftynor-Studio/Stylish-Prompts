@@ -13,16 +13,24 @@
       justify-content: center;
       background: #000;
     }
-    h1 {
-      font-family: 'Brush Script MT', cursive;
-      font-size: 4rem;
-      background: linear-gradient(45deg, orange, pink, purple);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    .logo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid #fff; /* white border around circle */
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-  <h1>Stylish Prompts</h1>
+  <div class="logo">
+    <img src="https://i.pinimg.com/736x/d9/65/5f/d9655fea59c8f7fc596e4ff5bbb73357.jpg" alt="Stylish Prompts Logo">
+  </div>
 </body>
 </html>
