@@ -1,20 +1,23 @@
 {
     "preview": {
         "url": "https://i.pinimg.com/",
-        "sizes": [200, 400]
+        "ext": ".jpg",
+        "sizes": ["200x/", "400x/"]
     },
     "by": {
         "IG": {
+            "name": "Instagram",
             "url": "https://www.instagram.com/",
             "icon": "https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico"
         }
     },
     "on": {
-        "Gemini": {
+        "GMN": {
+            "name": "Gemini",
             "url": "https://gemini.google.com/app",
             "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
             "models": {
-                "Nano-Banana": "2.5 Flash Image (aka Nano Banana)"
+                "1": "2.5 Flash Image (aka Nano Banana)"
             }
         }
     }
