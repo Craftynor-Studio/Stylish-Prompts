@@ -1,8 +1,22 @@
-{
+{   
+    "data": {
+        "url": "https://craftynor-studio.github.io/Stylish-Prompts/data/",
+        "files": [
+            "config.json",
+            {
+                "new": [
+                    "1.json"
+                ],
+                "trends": [
+                    "1.json"
+                ]
+            }
+        ]
+    },
     "preview": {
         "url": "https://i.pinimg.com/",
-        "ext": ".jpg",
-        "sizes": ["200x/", "400x/"]
+        "sizes": ["200x/", "400x/"],
+        "ext": ".jpg"
     },
     "by": {
         "IG": {
@@ -17,7 +31,7 @@
             "url": "https://gemini.google.com/app",
             "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
             "models": {
-                "1": "2.5 Flash Image (aka Nano Banana)"
+                "1": "2.5 Flash Image (aka Nano Banana 🍌)"
             }
         }
     }
