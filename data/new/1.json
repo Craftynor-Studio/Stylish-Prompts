@@ -1,15 +1,15 @@
 {
     "id": "logo",
     "title": "Stylish Prompts Logo",
-    "preview": "/d9/65/5f/d9655fea59c8f7fc596e4ff5bbb73357",
+    "preview": "d9/65/5f/d9655fea59c8f7fc596e4ff5bbb73357",
     "prompt": "A modern logo design with the words Stylish Prompts in a smooth cursive font. The text has a vibrant gradient color blend from orange to pink to purple. The background is solid black, making the colorful gradient text stand out. The overall look should be elegant, minimal, and eye-catching.",
     "by": {
         "app": "IG",
-        "handle": "craftynor_studio"
+        "handle": "Stylish_prompts"
     },
     "on": {
         "app": "GMN",
         "model": "1"
     },
-    "required": 0
+    "num": 0
 }
