@@ -13,7 +13,7 @@
             }
         ]
     },
-    "image": {
+    "imageUrlMaking": {
         "baseUrl": "https://i.pinimg.com/",
         "sizePaths": {
             "inGrid": "200x/",
@@ -23,13 +23,22 @@
         "exampleUrl": "https://i.pinimg.com/200x/<imageId>.jpg"
     },
     "byBaseUrl": "https://www.instagram.com/",
-    "on": {
+    "onList": {
         "GMN": {
             "name": "Gemini",
             "url": "https://gemini.google.com/app",
-            "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
+            "iconUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
             "models": {
                 "01": "2.5 Flash Image (aka Nano Banana 🍌)"
+            }
+        },
+        "GPT": {
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com/",
+            "iconUrl": "https://cdn.oaistatic.com/assets/favicon-l4nq08hd.svg",
+            "models": {
+                "01": "Free",
+                "02": "Go"
             }
         }
     }
