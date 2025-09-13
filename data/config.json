@@ -1,37 +1,35 @@
 {   
     "data": {
-        "url": "https://craftynor-studio.github.io/Stylish-Prompts/data/",
-        "files": [
+        "baseUrl": "https://craftynor-studio.github.io/Stylish-Prompts/data/",
+        "filePaths": [
             "config.json",
             {
-                "new": [
+                "new/": [
                     "1.json"
                 ],
-                "trends": [
+                "trends/": [
                     "1.json"
                 ]
             }
         ]
     },
-    "preview": {
-        "url": "https://i.pinimg.com/",
-        "sizes": ["200x/", "400x/"],
-        "ext": ".jpg"
+    "image": {
+        "baseUrl": "https://i.pinimg.com/",
+        "sizePaths": {
+            "inGrid": "200x/",
+            "inDetail": "400x/"
+        },
+        "ext": ".jpg",
+        "exampleUrl": "https://i.pinimg.com/200x/<imageId>.jpg"
     },
-    "by": {
-        "IG": {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/",
-            "icon": "https://static.cdninstagram.com/rsrc.php/y4/r/QaBlI0OZiks.ico"
-        }
-    },
+    "byBaseUrl": "https://www.instagram.com/",
     "on": {
         "GMN": {
             "name": "Gemini",
             "url": "https://gemini.google.com/app",
             "icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
             "models": {
-                "1": "2.5 Flash Image (aka Nano Banana 🍌)"
+                "01": "2.5 Flash Image (aka Nano Banana 🍌)"
             }
         }
     }
